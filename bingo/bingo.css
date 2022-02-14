@@ -3,6 +3,10 @@ body{
     background-color: brown;
 }
 
+header{
+    text-align: center;
+}
+
 main{
     margin: auto;
     max-width: 1100px;
