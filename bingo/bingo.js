@@ -51,33 +51,38 @@ for(z = 0; z < 24; z++) //Remove numeros repetidos e gera um novo
 }
 
 let p = 0
-
+let p2 = 0
 function começar()
 { 
-    for(i = 0; i <= 23; i++)
+    if(p2 == 0)
     {
-        num[i] = Math.floor(Math.random() * 24)
-    }
-    for(i = 0; i <=23; i++)
-    {
-        for(j = 0; j <= 23; j++)
-        {   
-            if(i != j)
-            {
-                if(num[i] == num[j])
+        
+        for(i = 0; i <= 23; i++)
+        {
+            num[i] = Math.floor(Math.random() * 24)
+        }
+        for(i = 0; i <=23; i++)
+        {
+            for(j = 0; j <= 23; j++)
+            {   
+                if(i != j)
                 {
-                    num[j] = Math.floor(Math.random() * 24)
-                    j = 0
-                    i = 0
+                    if(num[i] == num[j])
+                    {
+                        num[j] = Math.floor(Math.random() * 24)
+                        j = 0
+                        i = 0
+                    }
                 }
             }
         }
+        
+        for(a = 0; a <= 23; a++)
+        {
+            cartelas[a].innerHTML = num[a]
+        }
     }
-    
-    for(a = 0; a <= 23; a++)
-    {
-        cartelas[a].innerHTML = num[a]
-    }
+    p2++
 }
 function girar()
 {
@@ -93,4 +98,8 @@ function girar()
     }
     
     p++
+}
+function reiniciar()
+{
+    location.reload()
 }

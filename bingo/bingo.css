@@ -49,20 +49,36 @@ div#sorteados h1{
 #girar{
     border-radius: 50px;
     height: 100px;
-    width: 200px;
+    width: 150px;
     top: 320px;
-    left: 75%;
+    left: 80%;
     position: absolute;
     transform: translate(-50%, 50%);
+    border: 2px solid black;
+    background: white;
 }
 #começar{
     border-radius: 50px;
     height: 100px;
-    width: 200px;
+    width: 150px;
     top: 320px;
-    left: 25%;
+    left: 20%;
     position: absolute;
     transform: translate(-50%, 50%);
+    border: 2px solid black;
+    background: white;
+}
+
+#reiniciar{
+    border: 2px solid black;
+    background: white;
+    border-radius: 50px;
+    height: 100px;
+    width: 150px;
+    top: 320px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 50%);   
 }
 
 .sorteados{
