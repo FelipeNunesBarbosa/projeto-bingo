@@ -26,9 +26,11 @@ let cartelas = [
 ]
 let res = document.getElementById('res')
 let numerosSorteados = document.getElementById('sorteados')
+let nome = document.getElementById('nome')
 let num = []
 let contador = []  //Armazena 24 números aleatórios sem repetição
-
+let n = window.prompt('Qual o seu nome?')
+nome.innerHTML = n
 for(z = 0; z < 24; z++){ //Gera 24 numeros aleatorios
     contador[z] = Math.floor(Math.random() * 24)
 }

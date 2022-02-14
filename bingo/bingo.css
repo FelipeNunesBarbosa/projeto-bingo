@@ -99,6 +99,10 @@ div#sorteados{
     width: 500px;
 }
 
+.cartela h1{
+    margin: 0px;
+}
+
 .number{
     background-color: white;
     font-size: 50px;
@@ -109,5 +113,5 @@ div#sorteados{
     border-radius: 50%;
     height: 90px;
     width: 90px;
-    margin: 10px 15px ;
+    margin: 0px 15px ;
 }
