@@ -1,0 +1,109 @@
+body{
+    text-align: center;
+    background-color: brown;
+}
+
+main{
+    margin: auto;
+    max-width: 1100px;
+}
+
+.principal{
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 964px;
+    width: 500px;
+    background-color: rgb(127, 197, 255);
+    left: 668px;
+}
+
+div#res{
+    background-color: wheat;
+    text-align: center;
+    font-size: 200px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 5%;
+}
+#sorteados{
+    text-align: justify;
+    font-size: 40px;
+    padding: 10px;
+}
+div#sorteados h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#girar{
+    border-radius: 50px;
+    height: 100px;
+    width: 200px;
+    top: 320px;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+}
+#começar{
+    border-radius: 50px;
+    height: 100px;
+    width: 200px;
+    top: 320px;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+}
+
+.sorteados{
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 25%;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(127, 197, 255);
+
+    left: 70%;
+    top: 900px;
+
+    transform: translate(-50%, -50%);
+}
+
+div#sorteados{
+    margin: 500px 0px 0px 50px;  
+    background: wheat;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.cartela{
+    background-color: rgb(127, 197, 255);
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    height: 230px;
+    width: 500px;
+}
+
+.number{
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin: 10px 15px ;
+}
